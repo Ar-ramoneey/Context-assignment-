@@ -15,7 +15,7 @@ export default function PersonalInfo() {
 
         <input
           type="text"
-          placeholder="Name"
+          placeholder="Enter your name"
           value={formData.name}
           onChange={(e) => formDataUpdate("name", e.target.value)}
           className="block border rounded-lg p-1 mb-2 w-full "
@@ -23,7 +23,7 @@ export default function PersonalInfo() {
 
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Enter your email"
           value={formData.email}
           onChange={(e) => formDataUpdate("email", e.target.value)}
           className="block border rounded-lg p-1 mb-2 w-full"

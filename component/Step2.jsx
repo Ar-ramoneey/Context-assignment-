@@ -18,7 +18,7 @@ export default function Address() {
 
         <input
           type="text"
-          placeholder="Street"
+          placeholder="Enter your address"
           value={formData.street}
           onChange={(e) => formDataUpdate("street", e.target.value)}
           className="block border rounded-lg p-1 mb-2 w-full "
