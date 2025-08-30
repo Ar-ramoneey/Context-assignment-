@@ -21,7 +21,7 @@ export default function Address() {
           placeholder="Enter your address"
           value={formData.street}
           onChange={(e) => formDataUpdate("street", e.target.value)}
-          className="block border rounded-lg p-1 mb-2 w-full "
+          className="block border rounded-lg p-1 mb-2 w-full text-sm"
         />
 
         <div className="flex gap-2">

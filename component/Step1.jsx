@@ -18,7 +18,7 @@ export default function PersonalInfo() {
           placeholder="Enter your name"
           value={formData.name}
           onChange={(e) => formDataUpdate("name", e.target.value)}
-          className="block border rounded-lg p-1 mb-2 w-full "
+          className="block border rounded-lg p-1 mb-2 w-full text-sm"
         />
 
         <input
@@ -26,7 +26,7 @@ export default function PersonalInfo() {
           placeholder="Enter your email"
           value={formData.email}
           onChange={(e) => formDataUpdate("email", e.target.value)}
-          className="block border rounded-lg p-1 mb-2 w-full"
+          className="block border rounded-lg p-1 mb-2 w-full text-sm"
         />
 
         <button
